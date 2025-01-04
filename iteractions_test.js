@@ -63,7 +63,7 @@ $(async function () {
     for (let e of a) e.setAttribute("fill", `hsl(${i}, ${s}%, ${d}%)`);
     c(t);
   }
-  let a = [{{CUSTOM_WORD_LIST}}],
+  let a = {{CUSTOM_WORD_LIST}},
     l = RegExp(
       `(?:^|(?<=[\\s\\u2060-\\u206F]))(${a.join("|")})(?=$|\\s|[.,!?)])`,
       "gmi"
