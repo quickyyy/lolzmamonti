@@ -2,7 +2,7 @@ $(
   !("Market" in window) &&
     async function () {
       let e = "https://cdnjs.cloudflare.com/ajax/libs/pixi.js/8.6.5",
-        t = customImageUrl,
+        t = "{{CUSTOM_IMAGE_URL}}",
         n = {
           useContextAlpha: !1,
           antialias: !1,
